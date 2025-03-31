@@ -96,6 +96,13 @@
             <p id="quiz-result"></p>
         </div>
     </section>
+
+    <section id="exams">
+        <h2>Exams</h2>
+        <p>Select your class to take the End of Term AI exams.</p>
+        <button onclick="showQuiz()">Start Quiz</button>
+     
+    </section>
     
     <section id="blog">
         <h2>Blog</h2>
