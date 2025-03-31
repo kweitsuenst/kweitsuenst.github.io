@@ -55,13 +55,14 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to AI Lessons</h1>
+        <h1>Welcome to MIS AI page </h1>
         <nav>
             <ul>
                 <li><a href="#curriculum">Curriculum</a></li>
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#assignments">Assignments</a></li>
                 <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#exams">Exams</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#login">Student Login</a></li>
                 <li><a href="#contact">Contact</a></li>
