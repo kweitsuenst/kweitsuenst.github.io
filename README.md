@@ -100,7 +100,13 @@
     <section id="exams">
         <h2>Exams</h2>
         <p>Select your class to take the End of Term AI exams.</p>
-        <button onclick="showQuiz()">Start Quiz</button>
+        <button onclick="showQuiz()">Basic Three (3) </button>
+        <button onclick="showQuiz()">Basic Four (4) </button>
+        <button onclick="showQuiz()">Basic Five (5) </button>
+        <button onclick="showQuiz()">Basic Six (6) </button>
+        <button onclick="showQuiz()">Basic Seven (7) </button>
+        <button onclick="showQuiz()">Basic Eight (8) </button>
+       
      
     </section>
     
