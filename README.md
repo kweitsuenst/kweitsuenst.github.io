@@ -100,15 +100,22 @@
     <section id="exams">
         <h2>Exams</h2>
         <p>Select your class to take the End of Term AI exams.</p>
-        <button onclick="showb3test()">Basic Three (3) </button>
-         <div id="exams-section" class="hidden"></div>
-        <button onclick="showb4test()">Basic Four (4) </button>
-        <button onclick="showb5test()">Basic Five (5) </button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Three (3) </button> 
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Four (4) </button> 
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Five (5) </button> 
+        </a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
         <button type="button">Basic Six (6) </button> 
         </a>
-        <button onclick="showb7test()">Basic Seven (7) </button>
-        <button onclick="showb8test()">Basic Eight (8) </button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Seven (7) </button> 
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Eight (8) </button> 
+        </a>
+       
        
     </section>
     
