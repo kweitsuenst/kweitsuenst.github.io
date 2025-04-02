@@ -123,6 +123,10 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Reach out with any questions or feedback.</p>
+        
+        <a href="https://wa.me/+233551758061" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="50" height="50">
+    </a>
     </section>
     
     <footer>
