@@ -1,0 +1,114 @@
+<span style="font-size: xx-small"><span style="font-size: xx-small"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 7 PictoBlox Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Class 7 PictoBlox Test</h1>
+    <form id="quizForm" enctype="multipart/form-data">
+<span style="font-size: x-small"></span>        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="class">Select Your Class:</label>
+        <select id="class" name="class" required>
+            <option value="A">Class A</option>                             <span style="font-size: 8pt"><span style="font-size: small"></span></span>
+            <option value="B">Class B</option>
+            <option value="C">Class C</option>
+        </select><br><br>
+
+        <h2>Section A: Multiple Choice Questions</h2>
+
+        <p>1. What is Artificial Intelligence (AI)?</p>
+        <input type="radio" name="q1" value="A human-like robot"> A human-like robot<br>
+        <input type="radio" name="q1" value="A system that learns and makes decisions based on data"> A system that learns and makes decisions based on data<br>
+        <input type="radio" name="q1" value="A video game programming tool"> A video game programming tool<br>
+        <input type="radio" name="q1" value="A type of computer virus"> A type of computer virus<br><br>
+
+        <p>2. Which AI feature in PictoBlox allows a sprite to recognize text and respond?</p>
+        <input type="radio" name="q2" value="Object Detection"> Object Detection<br>
+        <input type="radio" name="q2" value="Speech Recognition"> Speech Recognition<br>
+        <input type="radio" name="q2" value="Text-to-Speech"> Text-to-Speech<br>
+        <input type="radio" name="q2" value="Face Recognition"> Face Recognition<br><br>
+
+        <p>3. What is Machine Learning?</p>
+        <input type="radio" name="q3" value="A method where machines are programmed with fixed rules"> A method where machines are programmed with fixed rules<br>
+        <input type="radio" name="q3" value="A way for computers to learn from data and improve over time"> A way for computers to learn from data and improve over time<br>
+        <input type="radio" name="q3" value="A type of video editing software"> A type of video editing software<br>
+        <input type="radio" name="q3" value="A drawing tool in PictoBlox"> A drawing tool in PictoBlox<br><br>
+
+        <p>4. How does speech recognition work in PictoBlox?</p>
+        <input type="radio" name="q4" value="It translates spoken words into text"> It translates spoken words into text<br>
+        <input type="radio" name="q4" value="It changes the color of a sprite"> It changes the color of a sprite<br>
+        <input type="radio" name="q4" value="It makes the sprite jump"> It makes the sprite jump<br>
+        <input type="radio" name="q4" value="It controls the backdrop"> It controls the backdrop<br><br>
+
+        <p>5. What is a chatbot?</p>
+        <input type="radio" name="q5" value="A tool for creating animations"> A tool for creating animations<br>
+        <input type="radio" name="q5" value="A program that can have conversations with users"> A program that can have conversations with users<br>
+        <input type="radio" name="q5" value="A game controller in PictoBlox"> A game controller in PictoBlox<br>
+        <input type="radio" name="q5" value="A sound effect generator"> A sound effect generator<br><br>
+
+        <p>6. What is a chatbot?</p>
+        <input type="radio" name="q5" value="A tool for creating animations"> A tool for creating animations<br>
+        <input type="radio" name="q5" value="A program that can have conversations with users"> A program that can have conversations with users<br>
+        <input type="radio" name="q5" value="A game controller in PictoBlox"> A game controller in PictoBlox<br>
+        <input type="radio" name="q5" value="A sound effect generator"> A sound effect generator<br><br>
+
+        <h2>Section B: Practical – File Upload</h2>
+        <label>Upload your PictoBlox project file:</label><br>
+        <input type="file" name="projectFile" accept=".sb3"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2 id="result" style="display: none;"></h2>
+    <h3 id="correctAnswers" style="display: none;"></h3>
+
+    <script>
+        document.getElementById("quizForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(event.target);
+
+            // Correct answers for MCQs
+            const correctAnswers = {
+                "q1": "A system that learns and makes decisions based on data",
+                "q2": "Text-to-Speech",
+                "q3": "A way for computers to learn from data and improve over time",
+                "q4": "It translates spoken words into text",
+                "q5": "A program that can have conversations with users"
+            };
+
+            let score = 0;
+            let totalQuestions = Object.keys(correctAnswers).length;
+            let feedback = "<h3>Correct Answers:</h3>";
+
+            for (let key in correctAnswers) {
+                if (formData.get(key) === correctAnswers[key]) {
+                    score++;
+                }
+                feedback += `<b>Question ${key.slice(1)}:</b> ${correctAnswers[key]}<br>`;
+            }
+
+            formData.append("score", score);
+
+            // Send data to backend
+            fetch("https://your-backend-url.com/submit_quiz", { // Replace with your actual backend URL
+                method: "POST",
+                body: formData
+            });
+
+            // Show score and correct answers
+            document.getElementById("result").innerHTML = `Your Score: ${score} / ${totalQuestions}`;
+            document.getElementById("result").style.display = "block";
+
+            document.getElementById("correctAnswers").innerHTML = feedback;
+            document.getElementById("correctAnswers").style.display = "block";
+        });
+    </script>
+</body>
+</html>
+</span></span>
