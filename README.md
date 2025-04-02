@@ -69,22 +69,22 @@
             </ul>
         </nav>
     </header>
-    
+
     <section id="curriculum">
         <h2>AI Curriculum</h2>
         <p>Explore AI topics by grade level.</p>
     </section>
-    
+
     <section id="resources">
         <h2>AI Resources</h2>
         <p>Find articles, videos, and tools to enhance your learning.</p>
     </section>
-    
+
     <section id="assignments">
         <h2>Assignments</h2>
         <p>Complete exercises and challenges to test your AI skills.</p>
     </section>
-    
+
     <section id="quizzes">
         <h2>Quizzes</h2>
         <p>Take interactive quizzes to assess your understanding of AI.</p>
@@ -101,47 +101,47 @@
         <h2>Exams</h2>
         <p>Select your class to take the End of Term AI exams.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Three (3) </button> 
+        <button type="button">Basic Three (3) </button>
         </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Four (4) </button> 
+        <button type="button">Basic Four (4) </button>
         </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Five (5) </button> 
+        <button type="button">Basic Five (5) </button>
         </a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Six (6) </button> 
+        <button type="button">Basic Six (6) </button>
         </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Seven (7) </button> 
+        <a href="quiz7.html">
+        <button type="button">Basic Seven (7) </button>
         </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
-        <button type="button">Basic Eight (8) </button> 
+        <button type="button">Basic Eight (8) </button>
         </a>
-       
-       
+
+
     </section>
-    
+
     <section id="blog">
         <h2>Blog</h2>
         <p>Stay updated with AI news and insights.</p>
     </section>
-    
+
     <section id="login">
         <h2>Student Login</h2>
         <p>Access your assignments and track your progress.</p>
     </section>
-    
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Reach out with any questions or feedback.</p>
-        
+
         <a href="https://wa.me/+233551758061" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="50" height="50">
     </a>
     </section>
-    
+
     <footer>
         <p>&copy; 2025 Ernest Positive. All Rights Reserved.</p>
     </footer>
-    
+
     <script>
         function showQuiz() {
             document.getElementById('quiz-section').classList.remove('hidden');
@@ -156,4 +156,3 @@
     </script>
 </body>
 </html>
-
