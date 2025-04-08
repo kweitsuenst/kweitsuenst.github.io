@@ -352,7 +352,7 @@
             formData.append("score", score);
 
             // Send data to backend
-            fetch("https://your-backend-url.com/submit_quiz", { // Replace with your actual backend URL
+            fetch("http://127.0.0.1:5000", { // Replace with your actual backend URL
                 method: "POST",
                 body: formData
             });
