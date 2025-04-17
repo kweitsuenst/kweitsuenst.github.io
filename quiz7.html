@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Class 7 Artificial Intelligence Test</h1>
-    <form id="quizForm" enctype="multipart/form-data">
+    <form id="quizForm" action="http://127.0.0.1:5000/submit_quiz" method="POST" enctype="multipart/form-data">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -268,9 +268,9 @@
 <input type="radio" name="q40" value="All of the above"> All of the above<br><br>
 
 
-        <h2>Section E: Upload PictoBlox Project File</h2>
-        <label>Upload your PictoBlox project file:</label><br>
-        <h2>Practical Question (10 Marks)</h2>
+
+
+        <h2>Section E: Practical Question (10 Marks)</h2>
     <p>Create only <strong>one</strong> of the following projects in PictoBlox and submit your file in the <strong>.sb3</strong> extension.</p>
 
     <ol>
@@ -280,6 +280,7 @@
         <li><strong>Costume Change</strong> – Make a sprite change its costume when it touches another object.</li>
         <li><strong>AI Face Detection</strong> – Create a simple AI-based face detection project using PictoBlox.</li>
     </ol>
+    <label>Upload your PictoBlox project file:</label><br>
         <input type="file" name="projectFile" accept=".sb3"><br><br>
 
         <button type="submit">Submit</button>
@@ -352,7 +353,7 @@
             formData.append("score", score);
 
             // Send data to backend
-            fetch("http://127.0.0.1:5000", { // Replace with your actual backend URL
+            fetch("http://127.0.0.1:5000" { // Replace with your actual backend URL
                 method: "POST",
                 body: formData
             });
