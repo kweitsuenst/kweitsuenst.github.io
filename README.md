@@ -78,6 +78,9 @@
     <section id="resources">
         <h2>AI Resources</h2>
         <p>Find articles, videos, and tools to enhance your learning.</p>
+         <a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">
+        <button type="button">Basic Three (3) </button>
+        
     </section>
 
     <section id="assignments">
