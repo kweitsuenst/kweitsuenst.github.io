@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,8 +25,8 @@
             border-radius: 50px;
         }
         nav ul {
-            list-style:                 !important ;
-            padding:    ;
+            list-style:   circle ;
+            padding:  0  ;
         }
         nav ul li {
             display:         flow list-item block ;
@@ -60,7 +61,7 @@
     </style>
 </head>
 <body>
-    <header>   <img src="https://drive.google.com/file/d/13szDDMjdC4l7lvby1BNmuvxEYE26cW6b/view?usp=drive_link" alt="" width=200 />
+    <header>   <img src="mis logo.jpg" alt="" width=100 />
         <h1>Welcome to MIS AI  </h1>
        Computing is  learning how to use the computer to ease work,
 
@@ -93,31 +94,32 @@ in Artificial Intelligence we program the computer to perform tasks which requir
     <section id="curriculum">
         <h2>AI Curriculum</h2>
         <p>Explore AI topics by grade level.</p>
-        <a href="https://drive.google.com/file/d/1xu4FMpcmFA5ZQXfrrHNN4hbg1e75Aum_/view?usp=drive_link"  > </a>
-            <button type="button">Term 3 2024/2025    </button>
+
+        <a href="Mission_International_School_Coding_AI_Curriculum.pdf" target="_blank"><button type="button" >Term 3 2024/2025</button></a>
     </section>
 
     <section id="resources">
         <h2>AI Resources</h2>
         <p>Find Textbooks, articles, videos, and tools to enhance your learning.</p>
 
-        <p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">   </a>
-            <button type="button">Grade 3 Text Material </button></p>
-            <p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">  </a>
-            <button type="button">Grade 4 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf"> </a>
-            <button type="button">Grade 5 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">     </a>
-            <button type="button">Grade 6 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">         </a>
-            <button type="button">Grade 7 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">             </a>
-            <button type="button">Grade 8 Text Material </button></p>
+
+          <a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf" > <button type="button">Grade 3 Text Material </button> </a>
+            <a href="http://pmponline.co.in/CodeAIPlus/CodeAIplus_ebooks/Book-4.pdf"> <button type="button">Grade 4 Text Material </button></a>
+           <a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-5.pdf"><button type="button">Grade 5 Text Material </button></a>
+            <a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-6.pdf"><button type="button">Grade 6 Text Material </button></a>
+           <a href="https://pmponline.co.in/20262023/CodeAI%20-7.pdf"><button type="button">Grade 7 Text Material </button></a>
+            <a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-8.pdf"><button type="button">Grade 8 Text Material </button> </a>
+
+
 
 
 
     </section>
 
-    <section id="projects"> <h2><img src="https://drive.google.com/file/d/1yk2cvpw5euQRHbvinSTM79nJkCukajwv/view?usp=drive_link" height="200" 0width="500"alt="Learn from other students and projects samples from the AI department" width=200  onclick=""/></h2>
+    <section id="projects"> <h2><img src="MISAIPROJECTS1.jpg" height="200" width="500"alt="Learn from other students and projects samples from the AI department" width=200  onclick=""/></h2>
     <aside>Make a sprite dance to a song </aside>
-    <img src="https://drive.google.com/file/d/1mCbtDppbTUaLwnfiKOWJzWTFRtQuSGQu/view?usp=drive_link"   height=200 width="200" />
-         <video src="https://drive.google.com/file/d/1HCDXWX_AApRqFlS-bvhrhFEORFIhIlPh/view?usp=drive_link" autoplay="autoplay"  height="200" width="350" > play video</video>
+    <img src="dance@misaiproject.PNG"   height=200 width="200" />
+         <video src="dance@misaiprojects.mp4"   height="200" width="350"  title="Dancing sprite"  > </video> <button type="button">Play video of dancing </button>
     </section>
 
     <section id="quizzes">
@@ -135,19 +137,19 @@ in Artificial Intelligence we program the computer to perform tasks which requir
     <section id="exams">
         <h2>Exams</h2>
         <p>Select your class to take the End of Term AI exams.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <a href="quiz3.html">
         <button type="button">Basic Three (3) </button>
-        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        </a><a href="quiz4.html">
         <button type="button">Basic Four (4) </button>
-        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        </a><a href="quiz5.html">
         <button type="button">Basic Five (5) </button>
         </a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <a href="quiz6.html">
         <button type="button">Basic Six (6) </button>
         </a>
         <a href="quiz7.html">
         <button type="button">Basic Seven (7) </button>
-        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        </a><a href="quiz8.html">
         <button type="button">Basic Eight (8) </button>
         </a>
 
@@ -161,16 +163,15 @@ in Artificial Intelligence we program the computer to perform tasks which requir
     </section>
 
     <section id="login">
-        <h2>Student Login</h2>
-        <p>Access your assignments and track your progress.</p>
+    <h2>Student Login</h2>
+    <p>Access your assignments and track your progress.</p>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Reach out with any questions or feedback.</p>
+    <h2>Contact</h2>
+    <p>Reach out with any questions or feedback.</p>
 
-        <a href="https://wa.me/+233551758061" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="50" height="50">
+    <a href="https://wa.me/+233551758061" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="50" height="50">
     </a>
     </section>
 
