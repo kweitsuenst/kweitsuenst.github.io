@@ -24,10 +24,10 @@ button:hover{ background:#27ae60; }
 <form id="quizForm" enctype="multipart/form-data">
 <label>Your Name:</label>
 <input type="text" name="name" required>
-
+<br></br>
 <label>Select Class:</label>
 <select name="class" id="class" required>
-<option value="">--Select Class--</option>
+<option value="">Select Class</option>
 <option value="3A">Class 3A</option>
 <option value="3B">Class 3B</option>
 <option value="3C">Class 3C</option>
