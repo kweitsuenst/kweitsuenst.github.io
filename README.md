@@ -24,7 +24,7 @@ button:hover{ background:#27ae60; }
 <form id="quizForm" enctype="multipart/form-data">
 <label>Your Name:</label>
 <input type="text" name="name" required>
-<br></br>
+
 <label>Select Class:</label>
 <select name="class" id="class" required>
 <option value="">--Select Class--</option>
@@ -41,10 +41,10 @@ button:hover{ background:#27ae60; }
 <option value="6B">Class 6B</option>
 <option value="6C">Class 6C</option>
 </select>
-<br></br>
+
 <label>Upload File:</label>
 <input type="file" id="file" name="file" required>
-<br></br>
+
 <button type="submit">Submit</button>
 </form>
 
