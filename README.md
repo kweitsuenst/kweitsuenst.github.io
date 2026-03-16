@@ -18,7 +18,7 @@ button:hover{ background:#27ae60; }
 
 <h1>Mission International School</h1>
 <h2>Upload your file with your name and respective class</h2>
-<h3>Class 3–5: .sb3 file (PictoBlox)</h3>
+<h3>Class 3–5: .sb3 file (PictoBlox/Scratch)</h3>
 <h3>Class 6: .py file (Python)</h3>
 
 <form id="quizForm" enctype="multipart/form-data">
