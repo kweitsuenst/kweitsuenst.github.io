@@ -1,116 +1,195 @@
 
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mission International School</title>
-<style>
-html { font-size: clamp(14px, 2vw, 22px); }
-h1 { font-size: clamp(24px, 5vw, 48px); }
-h2, h3 { font-size: clamp(18px, 4vw, 28px); }
-body{ font-family:'Segoe UI',sans-serif; background:#123544; color:white; padding:30px 20px; }
-input, select, button{ padding:10px; margin-top:5px; margin-bottom:15px; width:100%; max-width:400px; border-radius:5px; border:none; }
-button{ background:#2ecc71; color:white; cursor:pointer; }
-button:hover{ background:#27ae60; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Lessons with Ernest Positive</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0073E6
+              !important;
+            color: white;
+        }
+        header {
+
+            margin: 2px;
+            padding: 20px;
+            background: #FFFFFF;
+            color: blue;
+            padding: 1em ;
+            text-align: center;
+            border-radius: 50px;
+        }
+        nav ul {
+            list-style:                 !important ;
+            padding:    ;
+        }
+        nav ul li {
+            display:         flow list-item block ;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration:    solid   ;
+            font-weight: bold;
+        }
+        section {
+            color: white;
+            text-align: left;
+            padding: 50px;
+            margin: 10px;
+            background: #0073E6;
+            border-radius: 50px;
+            box-shadow: 100px 100px 100px rgba(0.1, 0.1, 0.1, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
+    <header>   <img src="https://drive.google.com/file/d/13szDDMjdC4l7lvby1BNmuvxEYE26cW6b/view?usp=drive_link" alt="" width=200 />
+        <h1>Welcome to MIS AI  </h1>
+       Computing is  learning how to use the computer to ease work,
 
-<h1>Mission International School</h1>
-<h2>Upload your file with your name and respective class</h2>
-<h3>Class 3–5: .sb3 file (PictoBlox/Scratch)</h3>
-<h3>Class 6: .py file (Python)</h3>
+in Artificial Intelligence we program the computer to perform tasks which require Human Intelligence all by the machine itself.
+<p>-Students learn coding from the basics
+-Automation of systems
+-Development of apps and software
+-Animations
+-Using AI tools for problem solving
 
-<form id="quizForm" enctype="multipart/form-data">
-<label>Your Name:</label>
-<input type="text" name="name" required>
+</li><pre><i>Whiles computers do all these, we the humans learn to be more human; easy access to informations,
+</i></pre>
+</li><pre><i>less time to work and acquire life values.
+</i></pre>
 
-<label>Select Class:</label>
-<select name="class" id="class" required>
-<option value="">Select Class</option>
-<option value="3A">Class 3A</option>
-<option value="3B">Class 3B</option>
-<option value="3C">Class 3C</option>
-<option value="4A">Class 4A</option>
-<option value="4B">Class 4B</option>
-<option value="4C">Class 4C</option>
-<option value="5A">Class 5A</option>
-<option value="5B">Class 5B</option>
-<option value="5C">Class 5C</option>
-<option value="6A">Class 6A</option>
-<option value="6B">Class 6B</option>
-<option value="6C">Class 6C</option>
-</select>
+        <nav>
+            <ul>
+                <li><a href="#curriculum">Curriculum</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#exams">Exams</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#login">Student Login</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<label>Upload File:</label>
-<input type="file" id="file" name="file" required>
+    <section id="curriculum">
+        <h2>AI Curriculum</h2>
+        <p>Explore AI topics by grade level.</p>
+        <a href="C:\data\Mission_International_School_Coding_AI_Curriculum.pdf"  > </a>
+            <button type="button">Term 3 2024/2025    </button>
+    </section>
 
-<button type="submit">Submit</button>
-</form>
+    <section id="resources">
+        <h2>AI Resources</h2>
+        <p>Find Textbooks, articles, videos, and tools to enhance your learning.</p>
 
-<p id="message"></p>
+        <p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">   </a>
+            <button type="button">Grade 3 Text Material </button></p>
+            <p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">  </a>
+            <button type="button">Grade 4 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf"> </a>
+            <button type="button">Grade 5 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">     </a>
+            <button type="button">Grade 6 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">         </a>
+            <button type="button">Grade 7 Text Material </button></p><p><a href="https://pmponline.co.in/codeai2023/ebook/CodeAI%20Book-3.pdf">             </a>
+            <button type="button">Grade 8 Text Material </button></p>
 
-<script>
-document.getElementById("quizForm").addEventListener("submit", async function(event){
-    event.preventDefault();
-    const form = event.target;
-    const fileInput = document.getElementById("file");
-    const selectedClass = form.class.value;
-    const file = fileInput.files[0];
 
-    if(!file){
-        alert("Please select a file.");
-        return;
-    }
 
-    const fileName = file.name.toLowerCase();
-    const classNumber = selectedClass.charAt(0);
+    </section>
 
-    // Validate file type
-    if(classNumber === "6" && !fileName.endsWith(".py")){
-        alert("Class 6 must upload a Python (.py) file.");
-        return;
-    } else if(["3","4","5"].includes(classNumber) && !fileName.endsWith(".sb3")){
-        alert("Classes 3–5 must upload a PictoBlox (.sb3) file.");
-        return;
-    }
+    <section id="projects"> <h2><img src="https://drive.google.com/file/d/1yk2cvpw5euQRHbvinSTM79nJkCukajwv/view?usp=drive_link" height="200" 0width="500"alt="Learn from other students and projects samples from the AI department" width=200  onclick=""/></h2>
+    <aside>Make a sprite dance to a song </aside>
+    <img src="https://drive.google.com/file/d/1mCbtDppbTUaLwnfiKOWJzWTFRtQuSGQu/view?usp=drive_link"   height=200 width="200" />
+         <video src="https://drive.google.com/file/d/1HCDXWX_AApRqFlS-bvhrhFEORFIhIlPh/view?usp=drive_link" autoplay="autoplay"  height="200" width="350" > play video</video>
+    </section>
 
-    const name = form.name.value.trim().toLowerCase().replace(/\s+/g,"_");
-    const uniqueKey = `submission_${name}_${selectedClass}`;
+    <section id="quizzes">
+        <h2>Quizzes</h2>
+        <p>Take interactive quizzes to assess your understanding of AI.</p>
+        <button onclick="showQuiz()">Start Quiz</button>
+        <div id="quiz-section" class="hidden">
+            <p>What does AI stand for?</p>
+            <button onclick="checkAnswer('correct')">Artificial Intelligence</button>
+            <button onclick="checkAnswer('wrong')">Automated Input</button>
+            <p id="quiz-result"></p>
+        </div>
+    </section>
 
-    if(localStorage.getItem(uniqueKey)){
-        alert("You have already submitted. Only one submission allowed.");
-        return;
-    }
+    <section id="exams">
+        <h2>Exams</h2>
+        <p>Select your class to take the End of Term AI exams.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Three (3) </button>
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Four (4) </button>
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Five (5) </button>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Six (6) </button>
+        </a>
+        <a href="quiz7.html">
+        <button type="button">Basic Seven (7) </button>
+        </a><a href="https://docs.google.com/forms/d/e/1FAIpQLSdj8xaR9eqr--6e8JLUjdSuyuO5GRWOpVsc1NzLPTxZ2sBN6A/viewform?usp=header">
+        <button type="button">Basic Eight (8) </button>
+        </a>
 
-    const submitBtn = form.querySelector("button");
-    submitBtn.disabled = true;
 
-    const formData = new FormData(form);
+    </section>
 
-    try{
-        const response = await fetch("https://kweitsuenst.pythonanywhere.com/submit_quiz", {
-            method: "POST",
-            body: formData
-        });
-        const result = await response.json();
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Stay updated with AI news and insights.</p>
+       <em><a href="https://youtube.com/shorts/OK0YhF3NMpQ?si=yhkqNgM3JLovhTxx"> This is what the founder of Chatgpt said children should be learning at school </a> </em>
+    </section>
 
-        if(!response.ok){
-            throw new Error(result.error || "Server error");
+    <section id="login">
+        <h2>Student Login</h2>
+        <p>Access your assignments and track your progress.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Reach out with any questions or feedback.</p>
+
+        <a href="https://wa.me/+233551758061" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" width="50" height="50">
+    </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ernest Positive. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showQuiz() {
+            document.getElementById('quiz-section').classList.remove('hidden');
         }
-
-        localStorage.setItem(uniqueKey,"submitted");
-        document.getElementById("message").innerHTML = "✅ Submission successful!";
-        form.reset();
-
-    } catch(error){
-        console.error(error);
-        document.getElementById("message").innerHTML = "❌ Submission failed. Check console or server logs.";
-    }
-
-    submitBtn.disabled = false;
-});
-</script>
-
+        function checkAnswer(answer) {
+            if (answer === 'correct') {
+                document.getElementById('quiz-result').innerText = 'Correct! Well done!';
+            } else {
+                document.getElementById('quiz-result').innerText = 'Incorrect. Try again!';
+            }
+        }
+    </script>
 </body>
 </html>
